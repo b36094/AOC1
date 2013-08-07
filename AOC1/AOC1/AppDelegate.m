@@ -17,7 +17,7 @@
     bool truth = YES;
     
     // Using NSLog, cast the float to an int, output both the initial float and the int
-    NSLog(@"Game: 'Green Soldar' Version: %.1f Level: %d",floatVar, (int)floatVar);
+    NSLog(@"Game: 'Green Soldier' Version: %.1f Level: %d",floatVar, (int)floatVar);
     
     // Perform and AND, OR comparison, use float, int and bool var types
     if (((int)floatVar > 0) && ((int)floatVar < 10)) {
