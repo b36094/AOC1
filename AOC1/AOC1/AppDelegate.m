@@ -33,12 +33,12 @@
     
     
     // Perform a for loop
-    for (int x = 0; x > 10; x++) {
+    for (int x = 0; x < 10; x++) {
         NSLog(@"Round %d out", x);
     }
     
     // Perform a nested loop
-    for (int count = 0; count > 10; count++) {
+    for (int count = 0; count < 10; count++) {
         NSLog(@" %d enemy/s down ...!", count);
         
         for (int j = 10; j > 0; j--) {
